@@ -3,7 +3,7 @@
 * This file contains the CSS for index.html
 */
 body {
-  background: lightblue;
+  background: #add8e6;
 }
 
 .mdl-layout__header-row {
@@ -18,11 +18,11 @@ body {
 }
 
 .mdl-textfield__error {
-  color: lightgreen;
+  color: #ff4040;
 }
 
 .page-content {
-  color: rgb(186, 34, 34);
+  color: #570909;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
 }
@@ -51,6 +51,6 @@ img {
 }
 
 .equals-sign {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.5em;
 }
