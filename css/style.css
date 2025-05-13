@@ -11,13 +11,13 @@ body {
   padding: 0;
 }
 
-/* Center header row */
+/* Header row styling */
 .mdl-layout__header-row {
   justify-content: center;
   padding: 0;
 }
 
-/* Content padding for mdl-layout */
+/* Content styling */
 .mdl-layout__content {
   padding: 15pt;
 }
@@ -30,7 +30,6 @@ body {
 /* Page content styling */
 .page-content {
   color: #570909;
-  
   font-size: 1.25rem;
 }
 
