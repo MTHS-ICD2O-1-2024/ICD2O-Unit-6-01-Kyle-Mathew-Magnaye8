@@ -12,3 +12,4 @@ function checkNumber() {
     ? (t.innerHTML = "<p>You guessed the correct number!</p>")
     : (t.innerHTML = `<p>You guessed wrong!<br/>The correct number was: ${randomNumber}</p>`)
 }
+
