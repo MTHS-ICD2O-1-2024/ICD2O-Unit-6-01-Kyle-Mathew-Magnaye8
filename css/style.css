@@ -1,55 +1,68 @@
-/* Created by: kyle.matthew.magnaye
-* Created on: Apr 2025
-* This file contains the CSS for index.html
-*/
+/* Created by: Kyle Matthew Magnaye
+ * Created on: May 2025
+ * This file contains the CSS for index.html
+ */
+
+/* General body styling */
 body {
   background: #add8e6;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+/* Center header row */
 .mdl-layout__header-row {
   justify-content: center;
   padding: 0;
 }
 
+/* Content padding for mdl-layout */
 .mdl-layout__content {
-  padding-left: 15pt;
-  padding-right: 15pt;
-  padding-top: 15pt;
+  padding: 15pt;
 }
 
+/* Error message styling */
 .mdl-textfield__error {
   color: #ff4040;
 }
 
+/* Page content styling */
 .page-content {
   color: #570909;
-  font-family: Helvetica, Arial, sans-serif;
+  
   font-size: 1.25rem;
 }
 
+/* Image styling */
 img {
   float: right;
   height: 200px;
+  object-fit: cover;
 }
 
+/* Temperature row styling for layout */
 .temperature-row {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
+/* Column layout for temperature */
 .temperature-column {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* Label styling for unit */
 .unit-label {
   margin-top: 4px;
   font-size: 0.9em;
   color: #555;
 }
 
+/* Equals sign styling */
 .equals-sign {
   font-weight: 700;
   font-size: 1.5em;
